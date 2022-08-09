@@ -1,7 +1,7 @@
 <template>
   <div class="text-center mt-5">
-    <h1>This is blogs route</h1>
-    <p class="my-3">i am using vue route to navigate blog route</p>
+    <h1>This is Contact route</h1>
+    <p class="my-3">i am using vue route to navigate contact route</p>
     <hr />
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id perferendis

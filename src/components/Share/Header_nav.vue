@@ -25,10 +25,10 @@
               <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Project</a>
+              <a class="nav-link active" href="/project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact me</a>
+              <a class="nav-link active" href="/contact">Contact me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="/blog">Blogs</a>
