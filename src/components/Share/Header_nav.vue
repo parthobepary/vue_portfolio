@@ -2,9 +2,11 @@
   <div>
     <nav class="navbar navbar-expand-lg positionFixed">
       <div class="container-fluid">
-        <p class="navbar-brand title">Partho's Info.</p>
+        <p class="title text-success">
+          Partho's <span class="text-warning">Info.</span>
+        </p>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler text-white bg-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
@@ -15,7 +17,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -29,7 +31,7 @@
               <a class="nav-link active" href="#">Contact me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Blogs</a>
+              <a class="nav-link active" href="/blog">Blogs</a>
             </li>
           </ul>
         </div>
@@ -39,7 +41,7 @@
 </template>
 <style scoped>
 div {
-  background-color: gray;
+  background-color: rgb(24, 3, 3);
 }
 .title {
   font-weight: bolder;
@@ -52,5 +54,12 @@ p {
 a {
   color: rgb(255, 255, 255) !important;
   margin: 0 10px;
+  padding: 10px 20px;
+}
+li a:hover {
+  background-color: rgb(67, 70, 48);
+  transition: 0.5s;
+  border-radius: 4px;
+  padding: 10px 20px;
 }
 </style>

@@ -1,16 +1,42 @@
 <template>
-  <div class="container text-white my-5">
-    <div>
-      <h2>Contact me</h2>
+  <div class="container text-white">
+    <div class="margine">
+      <h2 class="text-success">Contact <span class="text-warning">me</span></h2>
       <hr />
       <div>
-        <ul>
-          <li>Liknedin</li>
-          <li>Facebook</li>
-          <li>Github</li>
-          <li>Skype</li>
+        <ul class="d-flex justify-content-center">
+          <li class="btn btnsuces">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/partho-bepary-53a917229/"
+              >Liknedin</a
+            >
+          </li>
+          <li class="btn btnsuces">
+            <a
+              target="blank"
+              class="mx-4"
+              href="https://www.facebook.com/pallabbiswas.pallabbiswas.1999/"
+              >Facebook</a
+            >
+          </li>
+          <li class="btn btnsuces">
+            <a target="blank" class="me-4" href="https://github.com/pallobbiwas"
+              >Github</a
+            >
+          </li>
+          <li class="btn btnsuces"><a href="">Skype</a></li>
         </ul>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.margine {
+  margin: 100px 0;
+}
+li {
+  list-style: none;
+}
+</style>

@@ -12,10 +12,15 @@
         </div>
         <div class="col-12 col-md-6 text-center text-md-start">
           <ul>
-            <li>Email</li>
-            <li>Phone</li>
-            <li>Linkedin</li>
-            <li>Facebook</li>
+            <li>Email: beparypartho@gmail.com</li>
+            <li>Phone : 01798339054</li>
+            <li>
+              Linkedin: https://www.linkedin.com/in/partho-bepary-53a917229/
+            </li>
+            <li>
+              Facebook :
+              https://www.facebook.com/pallabbiswas.pallabbiswas.1999/
+            </li>
           </ul>
         </div>
       </div>

@@ -14,14 +14,18 @@
           </div>
           <div class="col-12 col-md-8 text-white">
             <div class="ms-5">
-              <h1>Partho Bepary</h1>
-              <h3>Front end developer (vue.js)</h3>
+              <h1 class="text-success">Partho Bepary</h1>
+              <h3 class="text-warning">Front end developer (vue.js)</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda amet quae autem, explicabo odio tenetur dolores esse
-                deleniti sed quisquam minus doloribus excepturi numquam nam
-                accusantium placeat voluptate minima adipisci. Dolores, fugiat
-                corrupti commodi porro esse sequi ea iusto.
+                I am Front end web developer. My exprience about web design and
+                development about 1 year.I am a quick learner and enjoy to work
+                with long time.
+                <br />
+                <strong>Expert : </strong> HTML5, CSS3, React.js, Node.js,
+                Express.js, Next.js, Mongoos, Mongodb atlas, Stripe, Firebase
+                <br />
+                <strong>Tools : </strong> Vs code, Heroku, Vercel, Netlify, Git,
+                Github
               </p>
               <a
                 href="@/assets/Partho-bepary.pdf"

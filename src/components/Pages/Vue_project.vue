@@ -1,60 +1,76 @@
 <template>
-  <div class="container">
-    <div
-      id="carouselExampleControls"
-      class="carousel slide text-white"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            laborum in, dicta nam praesentium repellat odio similique mollitia,
-            doloribus deleniti illum veniam illo molestias magnam necessitatibus
-            error perferendis aliquam blanditiis!20
-          </p>
+  <div class="container mb-5">
+    <h2 class="text-success mb-5">
+      <strong>My <span class="text-warning">Projects</span></strong>
+    </h2>
+    <div>
+      <div class="row">
+        <div class="col-12 col-md-4 height">
+          <div class="scroll h-100">
+            <img class="img-fluid" src="@/assets/1.png" alt="" />
+          </div>
+          <div class="mt-2">
+            <a
+              href="https://udemy-clone-eight.vercel.app/"
+              target="blank"
+              class="btn btn-primary me-3"
+              >Live</a
+            >
+            <a
+              href="https://github.com/pallobbiwas/udemy-clone"
+              target="blank"
+              class="btn btn-primary mx-3"
+              >Client site</a
+            >
+          </div>
         </div>
-        <div class="carousel-item">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            laborum in, dicta nam praesentium repellat odio similique mollitia,
-            doloribus deleniti illum veniam illo molestias magnam necessitatibus
-            error perferendis aliquam blanditiis!20 lor50 Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit. Voluptatum ut saepe ad esse,
-            laborum sint odit nam recusandae corporis quibusdam pariatur
-            repellat fugit reprehenderit! Sapiente aut accusamus eius, vitae
-            eveniet, corrupti et accusantium impedit non molestias numquam atque
-            porro, cumque neque doloremque dolores temporibus autem? Illum
-            delectus repellendus perferendis asperiores.
-          </p>
+        <div class="col-12 col-md-4 height">
+          <div class="scroll h-100">
+            <img class="img-fluid" src="@/assets/2.png" alt="" />
+          </div>
+          <div class="mt-2">
+            <a
+              href="https://assignment-11-49b4b.web.app/home"
+              target="blank"
+              class="btn btn-primary me-3"
+              >Live</a
+            >
+            <a
+              href="https://github.com/pallobbiwas/warehous-management"
+              target="blank"
+              class="btn btn-primary mx-3"
+              >Client site</a
+            >
+          </div>
         </div>
-        <div class="carousel-item">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-            laborum in, dicta nam praesentium repellat odio similique mollitia,
-            doloribus deleniti illum veniam illo molestias magnam necessitatibus
-            error perferendis aliquam blanditiis!20
-          </p>
+        <div class="col-12 col-md-4 height">
+          <div class="scroll h-100">
+            <img class="img-fluid" src="@/assets/3.png" alt="" />
+          </div>
+          <div class="mt-2">
+            <a
+              href="https://assignment-12-14077.web.app/home"
+              target="blank"
+              class="btn btn-primary me-3"
+              >Live</a
+            >
+            <a
+              href="https://github.com/pallobbiwas/car-parts-menufacturing"
+              target="blank"
+              class="btn btn-primary mx-3"
+              >Client site</a
+            >
+          </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
 </template>
+<style scoped>
+.scroll {
+  overflow: scroll;
+}
+.height {
+  height: 500px;
+}
+</style>
