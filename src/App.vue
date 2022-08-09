@@ -1,6 +1,8 @@
 <template>
-  <Header></Header>
-  <Footer></Footer>
+  <div class="bg-dark bg-gradient">
+    <Header></Header>
+    <Footer></Footer>
+  </div>
 </template>
 
 <script>
@@ -15,3 +17,11 @@ export default {
   },
 };
 </script>
+
+<style>
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+</style>
