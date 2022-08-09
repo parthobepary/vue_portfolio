@@ -15,13 +15,13 @@
           <li class="btn btnsuces">
             <a
               target="blank"
-              class="mx-4"
+              class="mx-2"
               href="https://www.facebook.com/pallabbiswas.pallabbiswas.1999/"
               >Facebook</a
             >
           </li>
           <li class="btn btnsuces">
-            <a target="blank" class="me-4" href="https://github.com/pallobbiwas"
+            <a target="blank" class="me-2" href="https://github.com/pallobbiwas"
               >Github</a
             >
           </li>
