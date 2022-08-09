@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg positionFixed">
       <div class="container-fluid">
         <p class="navbar-brand title">Partho's Info.</p>
         <button
@@ -20,7 +20,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Project</a>

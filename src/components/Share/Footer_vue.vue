@@ -1,6 +1,6 @@
 <template>
   <div class="bg-color">
-    <div class="container">
+    <div class="container py-3">
       <div class="row">
         <div class="col-12 col-md-6 text-center text-md-start">
           <ul>
