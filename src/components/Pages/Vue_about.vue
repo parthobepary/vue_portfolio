@@ -10,7 +10,7 @@
           <p>
             I am Partho bepary. My home town Barishal, Swarupkati. Now i Lives
             in Panthopath, Dhaka. I complete my graduation from Dhaka
-            International University in CSE in 2022. My cgpa .59(4).
+            International University in CSE in 2022. My cgpa 3.59(4).
           </p>
         </div>
         <div class="col-12 col-md-6">

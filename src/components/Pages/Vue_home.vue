@@ -27,12 +27,6 @@
                 <strong>Tools : </strong> Vs code, Heroku, Vercel, Netlify, Git,
                 Github
               </p>
-              <a
-                href="@/assets/Partho-bepary.pdf"
-                download
-                class="btn btn-primary"
-                >Dowonload resume</a
-              >
             </div>
           </div>
         </div>
