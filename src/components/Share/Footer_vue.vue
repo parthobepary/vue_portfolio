@@ -17,10 +17,6 @@
             <li>
               Linkedin: https://www.linkedin.com/in/partho-bepary-53a917229/
             </li>
-            <li>
-              Facebook :
-              https://www.facebook.com/pallabbiswas.pallabbiswas.1999/
-            </li>
           </ul>
         </div>
       </div>
