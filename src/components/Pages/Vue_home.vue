@@ -27,6 +27,12 @@
                 <strong>Tools : </strong> Vs code, Heroku, Vercel, Netlify, Git,
                 Github
               </p>
+              <h1>This is function: {{ 1 + 1 + 2 + 3 }}</h1>
+              <h1>This is function: {{ add(1, 2, 3) }}</h1>
+              <h1>This is function: {{ sub(1, 3) }}</h1>
+              <h1 v-for="item in list" v-bind:key="item.id">
+                Name: {{ item.name }}
+              </h1>
             </div>
           </div>
         </div>
@@ -55,6 +61,24 @@ export default {
     About,
     Project,
     Contact,
+  },
+  methods: {
+    add(a, b, c) {
+      return a + b + c;
+    },
+    sub(x, y) {
+      return x - y;
+    },
+  },
+  data() {
+    return { list: undefined };
+  },
+  mounted() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((data) => {
+        this.list = data;
+      });
   },
 };
 </script>

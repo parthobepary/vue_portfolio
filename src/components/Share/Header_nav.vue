@@ -19,7 +19,9 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/project"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#about">About</a>
